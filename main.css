@@ -17,7 +17,7 @@ body{
     font-size: 70px; 
 }
 
-.top-nav,.short-intro,.buy-now,.card-body p,.card-title{
+.top-nav,.short-intro,.buy-now,.card-body p,.card-title,.description h3{
     font-family: 'Roboto', cursive;
 }
 
@@ -25,6 +25,9 @@ body{
     font-weight: 600;
 }
 
+.description h3{
+    font-weight: 600;
+}
 
 .top-nav{
     font-weight: 700;
@@ -67,5 +70,24 @@ body{
         width: 100%;
         height: auto;
     }
-  }
+}
 
+.icon{
+    width: 78px;
+    height: 82px;
+}
+
+.left-wing{
+    width: 490px;
+}
+
+@media (max-width: 1200px) {
+    
+    .left-wing{
+        width:100%;
+    }
+}
+
+.micelecious{
+    margin-top: 100px;
+}
