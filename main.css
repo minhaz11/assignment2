@@ -17,7 +17,7 @@ body{
     font-size: 70px; 
 }
 
-.top-nav,.short-intro,.buy-now,.card-body p,.card-title,.description h3{
+.top-nav,.short-intro,.buy-now,.card-body p,.card-title,.description h3,.footer{
     font-family: 'Roboto', cursive;
 }
 
@@ -90,4 +90,17 @@ body{
 
 .micelecious{
     margin-top: 100px;
+}
+
+.discount-section{
+    margin-top: 100px;
+}
+
+.footer{
+    margin-top: 50px;
+    font-size: 13px;
+}
+
+.card{
+    border-radius: 20px;
 }
